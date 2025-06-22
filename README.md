@@ -1,4 +1,5 @@
-Problem Description
+#Problem Description
+
 The Tourist Problem aims to find the quickest itinerary between cities, given a transportation
 network consisting of bus and train stations. Each city may have one or both types of stations.
 Each direct connection between stations has an associated travel time. In addition, some cities
