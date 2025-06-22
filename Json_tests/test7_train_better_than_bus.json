@@ -1,0 +1,47 @@
+{
+    "stations": [
+        {
+            "name": "Ankara-Bus",
+            "city": "Ankara",
+            "mode": "bus"
+        },
+        {
+            "name": "Ankara-Train",
+            "city": "Ankara",
+            "mode": "train"
+        },
+        {
+            "name": "Bursa-Bus",
+            "city": "Bursa",
+            "mode": "bus"
+        },
+        {
+            "name": "Bursa-Train",
+            "city": "Bursa",
+            "mode": "train"
+        }
+    ],
+    "edges": [
+        {
+            "from": "Ankara-Bus",
+            "to": "Bursa-Bus",
+            "time": 300
+        },
+        {
+            "from": "Ankara-Train",
+            "to": "Bursa-Train",
+            "time": 100
+        },
+        {
+            "from": "Ankara-Bus",
+            "to": "Ankara-Train",
+            "time": 10
+        },
+        {
+            "from": "Bursa-Train",
+            "to": "Bursa-Bus",
+            "time": 10
+        }
+    ],
+    "start": "Ankara-Bus"
+}

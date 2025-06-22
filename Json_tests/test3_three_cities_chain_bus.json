@@ -1,0 +1,32 @@
+{
+    "stations": [
+        {
+            "name": "Ankara-Bus",
+            "city": "Ankara",
+            "mode": "bus"
+        },
+        {
+            "name": "Bursa-Bus",
+            "city": "Bursa",
+            "mode": "bus"
+        },
+        {
+            "name": "Corum-Bus",
+            "city": "Corum",
+            "mode": "bus"
+        }
+    ],
+    "edges": [
+        {
+            "from": "Ankara-Bus",
+            "to": "Bursa-Bus",
+            "time": 100
+        },
+        {
+            "from": "Bursa-Bus",
+            "to": "Corum-Bus",
+            "time": 200
+        }
+    ],
+    "start": "Ankara-Bus"
+}

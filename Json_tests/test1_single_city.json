@@ -1,0 +1,11 @@
+{
+    "stations": [
+        {
+            "name": "Ankara-Bus",
+            "city": "Ankara",
+            "mode": "bus"
+        }
+    ],
+    "edges": [],
+    "start": "Ankara-Bus"
+}

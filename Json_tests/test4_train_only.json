@@ -1,0 +1,22 @@
+{
+    "stations": [
+        {
+            "name": "Istanbul-Train",
+            "city": "Istanbul",
+            "mode": "train"
+        },
+        {
+            "name": "Canakkale-Train",
+            "city": "Canakkale",
+            "mode": "train"
+        }
+    ],
+    "edges": [
+        {
+            "from": "Istanbul-Train",
+            "to": "Canakkale-Train",
+            "time": 150
+        }
+    ],
+    "start": "Istanbul-Train"
+}

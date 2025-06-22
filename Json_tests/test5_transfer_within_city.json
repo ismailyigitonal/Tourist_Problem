@@ -1,0 +1,32 @@
+{
+    "stations": [
+        {
+            "name": "Istanbul-Bus",
+            "city": "Istanbul",
+            "mode": "bus"
+        },
+        {
+            "name": "Istanbul-Train",
+            "city": "Istanbul",
+            "mode": "train"
+        },
+        {
+            "name": "Izmir-Train",
+            "city": "Izmir",
+            "mode": "train"
+        }
+    ],
+    "edges": [
+        {
+            "from": "Istanbul-Bus",
+            "to": "Istanbul-Train",
+            "time": 20
+        },
+        {
+            "from": "Istanbul-Train",
+            "to": "Izmir-Train",
+            "time": 300
+        }
+    ],
+    "start": "Istanbul-Bus"
+}
